@@ -15,5 +15,10 @@ namespace demo
         {
             InitializeComponent();
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            int a = int.Parse(textBox1.Text);
+        }
     }
 }
